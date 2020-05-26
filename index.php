@@ -7,13 +7,6 @@ $twig = new \Twig\Environment($loader, [
     'cache' => './compilation_cache',
 ]);
 
-$newsArray = [
-    ["Title 1", "20/10/2020", "Short description 1"],
-    ["Title 2", "20/10/2020", "Short description 2"],
-    ["Title 3", "20/10/2020", "Short description 3"],
-    ["Title 4", "20/10/2020", "Short description 4"],
-    ["Title 5", "20/10/2020", "Short description 5"]];
+// Falta implementar los templates
+//echo $twig->render('descendant.html.twig', $news);
 
-
-
-?>
